@@ -6,6 +6,9 @@ import Header from './components/Header'
 import Ejercicio3 from './components/Ejercicio3_4'
 import MensajeLogado from './components/Ejercicio3_4'
 import DevolverArray from './components/Ejercicio5'
+import BotonAlert from './components/Ejercicio6'
+import BuscarPokemon from './components/Ejercicio7'
+import BuscarGengar from './components/Ejercicio8'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -25,6 +28,9 @@ function App() {
       <Header/>
       <MensajeLogado/>
       <DevolverArray/>
+      <BotonAlert/>
+      <BuscarPokemon/>
+      <BuscarGengar/>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
